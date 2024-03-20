@@ -31,5 +31,9 @@
 #navr a{
     padding: 10px;
     text-decoration: none;
+    color: #F7960F;
+}
+#navr .fa-solid{
     color: black;
+    margin-left: 30px;
 }
