@@ -2,16 +2,20 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
 }
 #main{
     width: 100%;
     height: auto;
+    /* background-color: #F7960F; */
 }
 #nav{
     display: flex;
     justify-content: baseline;
     align-items: center;
     padding-top: 2px;
+    background-color: #E5F0A5;
 }
 
 #navl img{
