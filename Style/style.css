@@ -8,7 +8,7 @@
 #main{
     width: 100%;
     height: auto;
-    /* background-color: #F7960F; */
+    background-color: #E5F0A5;
 }
 #nav{
     display: flex;
@@ -33,6 +33,12 @@
     text-decoration: none;
     color: #F7960F;
 }
+#navr a:hover{
+    text-decoration: underline;
+    color: black;
+   
+}
+
 #navr .fa-solid{
     color: black;
     margin-left: 30px;
@@ -45,6 +51,43 @@
     object-fit: cover;
 }
 #banner{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+    width: 100%;
     background-color: #F7960F;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .text{
+    color: #E5F0A5;
+    margin-right: 10%;
+    font-weight:bolder;
+    font-size: 60px;
+    font-style:italic;
+}
+#product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card-body{
+    background-color: #F7960F;
+}
+.anima{
+    margin-top: 2px;
+    border-bottom: 2px solid black;
+}
+.anima marquee{
+    align-items: center;
+    color: #F7960F;
+    margin-top: 2px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    
 }
