@@ -37,3 +37,14 @@
     color: black;
     margin-left: 30px;
 }
+#banner img{
+  
+    width: 50%;
+    border: 10px solid #F7960F; 
+    padding: 10px 100px;
+    object-fit: cover;
+}
+#banner{
+    background-color: #F7960F;
+   
+}
